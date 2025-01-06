@@ -1,4 +1,4 @@
-package linearDataStructure.arrayproblem;
+package linearDataStructure.array.arrayproblem;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package linearDataStructure.arrayproblem;
+package linearDataStructure.array.arrayproblem;
 
 public class FindSecondLargestElementFromArray {
     public static void main(String[] args) {

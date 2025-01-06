@@ -1,4 +1,4 @@
-package linearDataStructure.arrayproblem;
+package linearDataStructure.array.arrayproblem;
 
 public class CheckIfArrayIsSort {
     public static void main(String[] args) {
