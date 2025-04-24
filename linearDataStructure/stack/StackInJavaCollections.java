@@ -1,5 +1,6 @@
 package linearDataStructure.stack;
 
+import java.util.Iterator;
 import java.util.Stack;
 
 public class StackInJavaCollections {
@@ -41,5 +42,12 @@ public class StackInJavaCollections {
 
         //result: false
         System.out.println(stack.isEmpty());
+
+        Iterator<Integer> it = stack.iterator();
+        while(it.hasNext()) {
+            System.out.print(it.next() + " ");
+        }
+
+
     }
 }

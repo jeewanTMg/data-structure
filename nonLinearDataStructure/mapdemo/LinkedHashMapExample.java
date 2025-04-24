@@ -1,4 +1,4 @@
-package mapdemo;
+package nonLinearDataStructure.mapdemo;
 
 public class LinkedHashMapExample {
 

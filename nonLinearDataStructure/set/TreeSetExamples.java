@@ -11,7 +11,7 @@ public class TreeSetExamples {
         Set<Student> data = new TreeSet(new SortingBaseByRollNoAndClass());
         data.add(new Student("java",4,15));
         data.add(new Student("programming", 7,18));
-        data.add(new Student("Language",3,6));
+        data.add(new Student("language",3,6));
 
         for(Student std : data) {
             System.out.println(std.toString());

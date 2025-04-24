@@ -1,6 +1,8 @@
 package nonLinearDataStructure.set;
 
-public class Student {
+import java.util.Comparator;
+
+public class Student  implements Comparable<Student> {
     String name;
     int rollNo;
     int grade;
@@ -42,5 +44,9 @@ public class Student {
                 ", rollNo=" + rollNo +
                 ", grade=" + grade +
                 '}';
+    }
+    @Override
+    public int compareTo(Student o) {
+        return this.name.compareTo(o.getName());
     }
 }

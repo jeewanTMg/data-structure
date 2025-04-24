@@ -1,4 +1,4 @@
-package mapdemo.problem;
+package nonLinearDataStructure.mapdemo.problem;
 
 import java.util.*;
 
@@ -21,5 +21,13 @@ public class MapAnagram {
 
         String[] dataInput = {"eat","tea","ate","nat","bat"};
         List<List<String>> result = anagramGroupList(dataInput);
+        for(List<String> angram: result) {
+            for(String data : angram) {
+                System.out.print(data + " ");
+            }
+            System.out.println();
+            System.out.println("========");
+            System.out.println();
+        }
     }
 }

@@ -1,4 +1,4 @@
-package mapdemo;
+package nonLinearDataStructure.mapdemo;
 
 import java.util.HashMap;
 import java.util.Map;
